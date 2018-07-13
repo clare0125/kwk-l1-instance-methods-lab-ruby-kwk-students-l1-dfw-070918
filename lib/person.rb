@@ -1,7 +1,7 @@
 # person.rb
 
 class Person
-  
+  attr_reader :talk, :walk
 
   def talk
     puts "Hello World!"
