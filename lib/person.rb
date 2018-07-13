@@ -1,6 +1,7 @@
 # person.rb
 
 class Person
+  
 
   def talk
     puts "Hello World!"
@@ -11,4 +12,5 @@ class Person
   end
 end
 
-puts Person
+person_one = Person.new
+puts person_one
