@@ -11,4 +11,4 @@ class Person
   end
 end
 
-puts talk
+puts Person
