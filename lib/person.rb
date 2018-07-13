@@ -1,7 +1,7 @@
 # person.rb
 
 class Person
-  
+  attr_reader :talk
   def talk
     puts "Hello World!"
   end
